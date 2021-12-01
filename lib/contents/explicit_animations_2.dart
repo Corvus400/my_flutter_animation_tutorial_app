@@ -22,7 +22,17 @@ class _ExplicitAnimations2State extends State<ExplicitAnimations2> with SingleTi
     _animation = Tween<double>(
         begin: 0,
         end: 300
-    ).animate(_controller);
+    ).animate(_controller)
+    ..addStatusListener((status) {
+      if (status == AnimationStatus.completed) {
+        _controller.reverse();
+      } else if (status == AnimationStatus.dismissed) {
+        _controller.forward();
+      }
+    })
+    ..addStatusListener((status) {
+      print('$status');
+    });
     _controller.forward();
   }
 
