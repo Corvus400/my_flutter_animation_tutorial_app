@@ -18,6 +18,11 @@ class Home extends StatelessWidget {
         url: null,
         title: 'Implicit Animations 2',
         subTitle: 'Shape-shifting effect'),
+    Photo(
+        routeName: kRouteExplicitAnimations1,
+        url: null,
+        title: 'Explicit Animations 1',
+        subTitle: 'Shape-shifting effect'),
   ];
 
   @override
@@ -25,7 +30,7 @@ class Home extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         automaticallyImplyLeading: false,
-        title: const Text('Implicit Animations'),
+        title: const Text('Implicit & Explicit Animations'),
       ),
       body: GridView.count(
         restorationId: 'grid_view_grid_offset',
