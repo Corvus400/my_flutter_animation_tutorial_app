@@ -1,4 +1,4 @@
-import 'package:animation_tutorials/animated_widget/AnimatedLogo.dart';
+import 'package:animation_tutorials/animated_widget/animated_logo.dart';
 import 'package:flutter/material.dart';
 
 class ExplicitAnimations2 extends StatefulWidget {
