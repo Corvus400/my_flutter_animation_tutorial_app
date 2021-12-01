@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class AnimatedLogo extends AnimatedWidget {
-  const AnimatedLogo({Key? key, required Animation<double> animation})
+class AnimatedLogo1 extends AnimatedWidget {
+  const AnimatedLogo1({Key? key, required Animation<double> animation})
       : super(key: key, listenable: animation);
 
   @override

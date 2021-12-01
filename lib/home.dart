@@ -32,6 +32,11 @@ class Home extends StatelessWidget {
         routeName: kRouteExplicitAnimations3,
         url: null,
         title: 'Explicit Animations 3',
+        subTitle: 'Expanded effect(refactoring)'),
+    Photo(
+        routeName: kRouteExplicitAnimations4,
+        url: null,
+        title: 'Explicit Animations 4',
         subTitle: 'Expanded and shrink effect(refactoring)'),
   ];
 

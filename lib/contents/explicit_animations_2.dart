@@ -1,4 +1,4 @@
-import 'package:animation_tutorials/animated_widget/animated_logo.dart';
+import 'package:animation_tutorials/animated_widget/animated_logo_1.dart';
 import 'package:flutter/material.dart';
 
 class ExplicitAnimations2 extends StatefulWidget {
@@ -43,7 +43,7 @@ class _ExplicitAnimations2State extends State<ExplicitAnimations2> with SingleTi
         title: const Text('Explicit Animations 2'),
       ),
       body: Center(
-        child: AnimatedLogo(animation: _animation),
+        child: AnimatedLogo1(animation: _animation),
       ),
     );
   }

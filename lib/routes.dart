@@ -2,6 +2,7 @@ import 'package:animation_tutorials/contents/explicit_animations_2.dart';
 import 'package:animation_tutorials/contents/explicit_animations_3.dart';
 import 'package:flutter/material.dart';
 
+import 'contents/explicit_animations_4.dart';
 import 'contents/implicit_animations_1.dart';
 import 'contents/implicit_animations_2.dart';
 import 'contents/explicit_animations_1.dart';
@@ -11,6 +12,7 @@ const kRouteImplicitAnimations2 = "/implicit_animations_2";
 const kRouteExplicitAnimations1 = "/explicit_animations_1";
 const kRouteExplicitAnimations2 = "/explicit_animations_2";
 const kRouteExplicitAnimations3 = "/explicit_animations_3";
+const kRouteExplicitAnimations4 = "/explicit_animations_4";
 
 final kRoutes = <String, WidgetBuilder>{
   kRouteImplicitAnimations1: (BuildContext context) => ImplicitAnimations1(),
@@ -18,4 +20,5 @@ final kRoutes = <String, WidgetBuilder>{
   kRouteExplicitAnimations1: (BuildContext context) => ExplicitAnimations1(),
   kRouteExplicitAnimations2: (BuildContext context) => ExplicitAnimations2(),
   kRouteExplicitAnimations3: (BuildContext context) => ExplicitAnimations3(),
+  kRouteExplicitAnimations4: (BuildContext context) => ExplicitAnimations4(),
 };
