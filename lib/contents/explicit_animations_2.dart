@@ -40,7 +40,7 @@ class _ExplicitAnimations2State extends State<ExplicitAnimations2> with SingleTi
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Explicit Animations 1'),
+        title: const Text('Explicit Animations 2'),
       ),
       body: Center(
         child: AnimatedLogo(animation: _animation),
